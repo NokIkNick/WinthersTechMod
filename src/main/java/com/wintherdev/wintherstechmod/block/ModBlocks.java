@@ -2,9 +2,11 @@ package com.wintherdev.wintherstechmod.block;
 
 import com.wintherdev.wintherstechmod.WinthersTechMod;
 import com.wintherdev.wintherstechmod.item.ModItems;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.bus.api.IEventBus;
@@ -20,7 +22,10 @@ public class ModBlocks {
     public static final DeferredBlock<Block> ALUMINIUM_BLOCK = registerBlock("aluminium_block", () -> new Block(BlockBehaviour.Properties.of()
             .requiresCorrectToolForDrops().strength(4f).sound(SoundType.METAL)));
 
-    public static final DeferredBlock<Block> ALUMINIUM_ORE = registerBlock("aluminium_ore", () -> new Block(BlockBehaviour.Properties.of()
+    public static final DeferredBlock<Block> ALUMINIUM_ORE = registerBlock("aluminium_ore", () -> new DropExperienceBlock(UniformInt.of(0,4),BlockBehaviour.Properties.of()
+            .requiresCorrectToolForDrops().strength(4f).sound(SoundType.METAL)));
+
+    public static final DeferredBlock<Block> DEEPSLATE_ALUMINIUM_ORE = registerBlock("deepslate_aluminium_ore", () -> new DropExperienceBlock(UniformInt.of(0,4),BlockBehaviour.Properties.of()
             .requiresCorrectToolForDrops().strength(4f).sound(SoundType.METAL)));
 
     private static <T extends Block>DeferredBlock<T> registerBlock(String name, Supplier<T> block){

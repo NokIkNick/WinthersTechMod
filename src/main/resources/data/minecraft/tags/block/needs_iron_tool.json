@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values":[
+    "wintherstechmod:aluminium_block",
+    "wintherstechmod:aluminium_ore",
+    "wintherstechmod:deepslate_aluminium_ore"
+  ]
+}

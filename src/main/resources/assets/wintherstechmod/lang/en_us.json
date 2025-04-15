@@ -1,7 +1,14 @@
 {
   "item.wintherstechmod.aluminium_ingot": "Aluminium Ingot",
   "item.wintherstechmod.raw_aluminium": "Raw Aluminium",
+  "item.wintherstechmod.chisel": "Chisel",
+  "item.wintherstechmod.grate": "Grate",
+  "item.wintherstechmod.silica_stone": "Silica Stone",
+  "item.wintherstechmod.coil": "Coil",
 
   "block.wintherstechmod.aluminium_block": "Aluminium Block",
-  "block.wintherstechmod.aluminium_ore": "Aluminium Ore"
+  "block.wintherstechmod.aluminium_ore": "Aluminium Ore",
+  "block.wintherstechmod.deepslate_aluminium_ore": "Deepslate Aluminium Ore",
+
+  "creativetab.wintherstechmod.techmod": "Winthers Tech Mod"
 }

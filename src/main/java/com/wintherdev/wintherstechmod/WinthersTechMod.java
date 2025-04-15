@@ -2,6 +2,7 @@ package com.wintherdev.wintherstechmod;
 
 import com.mojang.logging.LogUtils;
 import com.wintherdev.wintherstechmod.block.ModBlocks;
+import com.wintherdev.wintherstechmod.item.ModCreativeModeTabs;
 import com.wintherdev.wintherstechmod.item.ModItems;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -28,6 +29,7 @@ public class WinthersTechMod {
         //register here:
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
 
         //add this when we need events:
         //NeoForge.EVENT_BUS.register(this);
@@ -53,15 +55,7 @@ public class WinthersTechMod {
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS){
-            event.accept(ModItems.ALUMINIUM_INGOT);
-            event.accept(ModItems.RAW_ALUMINIUM);
-        }
 
-        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
-            event.accept(ModBlocks.ALUMINIUM_BLOCK);
-            event.accept(ModBlocks.ALUMINIUM_ORE);
-        }
     }
 }
 

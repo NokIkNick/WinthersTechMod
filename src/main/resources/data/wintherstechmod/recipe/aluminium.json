@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "wintherstechmod:aluminium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "id": "wintherstechmod:aluminium_ingot"
+  }
+}
