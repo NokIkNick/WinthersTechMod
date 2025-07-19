@@ -5,10 +5,23 @@
   "item.wintherstechmod.grate": "Grate",
   "item.wintherstechmod.silica_stone": "Silica Stone",
   "item.wintherstechmod.coil": "Coil",
+  "item.wintherstechmod.raw_platinum": "Raw Platinum",
+  "item.wintherstechmod.platinum_ingot": "Platinum Ingot",
 
   "block.wintherstechmod.aluminium_block": "Aluminium Block",
   "block.wintherstechmod.aluminium_ore": "Aluminium Ore",
   "block.wintherstechmod.deepslate_aluminium_ore": "Deepslate Aluminium Ore",
+  "block.wintherstechmod.test_custom_block": "Test Custom Block",
+  "block.wintherstechmod.platinum_block": "Platinum Block",
+  "block.wintherstechmod.platinum_ore": "Platinum Ore",
+  "block.wintherstechmod.deepslate_platinum_ore": "Deepslate Platinum Ore",
+  "block.wintherstechmod.solar_panel": "Solar Panel",
 
-  "creativetab.wintherstechmod.techmod": "Winthers Tech Mod"
+  "creativetab.wintherstechmod.techmod": "Winthers Tech Mod",
+
+
+  "tooltip.wintherstechmod.magic_block.tooltip": "Default tooltip, wow!",
+  "tooltip.wintherstechmod.magic_block.tooltip.control": "Text holding control down? Amazing!",
+  "tooltip.wintherstechmod.magic_block.tooltip.alt": "Oh wow different text from holding alt!",
+  "tooltip.wintherstechmod.magic_block.tooltip.shift": "Even more text by holding shift!"
 }

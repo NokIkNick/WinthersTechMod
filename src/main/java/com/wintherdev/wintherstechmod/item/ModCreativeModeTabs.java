@@ -6,7 +6,9 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.block.Block;
 import net.neoforged.bus.api.IEventBus;
+import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.Supplier;
@@ -21,13 +23,23 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.ALUMINIUM_INGOT);
                         output.accept(ModItems.RAW_ALUMINIUM);
-                        output.accept(ModBlocks.ALUMINIUM_BLOCK);
-                        output.accept(ModBlocks.ALUMINIUM_ORE);
-                        output.accept(ModBlocks.DEEPSLATE_ALUMINIUM_ORE);
                         output.accept(ModItems.CHISEL);
                         output.accept(ModItems.GRATE);
                         output.accept(ModItems.SILICA_STONE);
                         output.accept(ModItems.COIL);
+                        output.accept(ModItems.PLATINUM_INGOT);
+                        output.accept(ModItems.RAW_PLATINUM);
+
+                        output.accept(ModBlocks.ALUMINIUM_BLOCK);
+                        output.accept(ModBlocks.ALUMINIUM_ORE);
+                        output.accept(ModBlocks.DEEPSLATE_ALUMINIUM_ORE);
+                        output.accept(ModBlocks.TEST_CUSTOM_BLOCK);
+                        output.accept(ModBlocks.PLATINUM_BLOCK);
+                        output.accept(ModBlocks.PLATINUM_ORE);
+                        output.accept(ModBlocks.DEEPSLATE_PLATINUM_ORE);
+                        output.accept(ModBlocks.SOLAR_PANEL);
+
+
                     }).build());
 
 

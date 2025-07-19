@@ -17,6 +17,12 @@ public class ModItems {
     public static final DeferredItem<Item> RAW_ALUMINIUM = ITEMS.register("raw_aluminium",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> PLATINUM_INGOT = ITEMS.register("platinum_ingot",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> RAW_PLATINUM = ITEMS.register("raw_platinum",
+            () -> new Item(new Item.Properties()));
+
     public static final DeferredItem<Item> GRATE = ITEMS.register("grate",
             () -> new Item(new Item.Properties()));
 
@@ -25,6 +31,7 @@ public class ModItems {
 
     public static final DeferredItem<Item> COIL = ITEMS.register("coil",
             () -> new Item(new Item.Properties()));
+
 
 
 

@@ -1,0 +1,9 @@
+// 1.21.1	2025-04-28T21:48:56.9887821	Loot Tables
+9867bb660ca6edb32f5e6cc809817e192a9feee5 data/wintherstechmod/loot_table/blocks/aluminium_block.json
+6b727f76974bd39efe9d7bd821a086e065cef8b8 data/wintherstechmod/loot_table/blocks/aluminium_ore.json
+f6fe10aa3ea8ad29e430d33d55d78cb028ab73eb data/wintherstechmod/loot_table/blocks/deepslate_aluminium_ore.json
+f7b5c67d51a4c4f02a69f80198db4dc0f014fa05 data/wintherstechmod/loot_table/blocks/deepslate_platinum_ore.json
+f8a268b34566949ea27064419dbe0edbe2aa0b24 data/wintherstechmod/loot_table/blocks/platinum_block.json
+715d470906b388a427588e3b0ccebbdcd6b10575 data/wintherstechmod/loot_table/blocks/platinum_ore.json
+d8057370d303cf06a3d99aa7d8b4296af4997574 data/wintherstechmod/loot_table/blocks/solar_panel.json
+7d55d382adcb9f00a039d28be4c6b080597d732f data/wintherstechmod/loot_table/blocks/test_custom_block.json

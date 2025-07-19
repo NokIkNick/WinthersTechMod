@@ -1,0 +1,21 @@
+{
+  "item.wintherstechmod.aluminium_ingot": "Aluminiumbarre",
+  "item.wintherstechmod.raw_aluminium": "Rå Aluminium",
+  "item.wintherstechmod.chisel": "Mejsel",
+  "item.wintherstechmod.grate": "Rist",
+  "item.wintherstechmod.silica_stone": "Silica Sten",
+  "item.wintherstechmod.coil": "Spole",
+
+  "block.wintherstechmod.aluminium_block": "Aluminium Block",
+  "block.wintherstechmod.aluminium_ore": "Aluminium Malm",
+  "block.wintherstechmod.deepslate_aluminium_ore": "Deepslate Aluminium Malm",
+  "block.wintherstechmod.test_custom_block": "Test Custom Block",
+
+  "creativetab.wintherstechmod.techmod": "Winthers Tech Mod",
+
+
+  "tooltip.wintherstechmod.magic_block.tooltip": "Default tooltip, wow! Men på dansk!",
+  "tooltip.wintherstechmod.magic_block.tooltip.control": "Tekst imens man holder control nede? Fedt!",
+  "tooltip.wintherstechmod.magic_block.tooltip.alt": "Oh wow forskellig tekst ved at holde alt!",
+  "tooltip.wintherstechmod.magic_block.tooltip.shift": "Endnu mere tekst ved at holde shift!"
+}
